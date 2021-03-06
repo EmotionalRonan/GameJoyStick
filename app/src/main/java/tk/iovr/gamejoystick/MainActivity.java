@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         DefaultController mDefaultController =
                 new DefaultController(
                         getApplicationContext(),
-                        (RelativeLayout) findViewById(R.id.frame)
+                        findViewById(R.id.frame)
                 );
 
         mDefaultController.createViews();
